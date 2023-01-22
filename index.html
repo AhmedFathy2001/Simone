@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/47e0a685fb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simone - Personal Portfolio Template</title>
+</head>
+
+<body>
+
+    <!-- Header/Nav-bar -->
+
+    <header>
+        <div class="nav-container p-fixed">
+            <div class="nav-bar d-flex align-center justify-between p-fixed">
+                <div class="logo">
+                    <a href="index.html"><img class="img" src="./images/logo-light.png" alt=""></a>
+                </div>
+                <input type="checkbox" class="nav-toggle p-absolute v-hidden" id="nav-toggle">
+                <label for="nav-toggle" class="p-absolute nav-toggle-label">
+                    <span class="span1 p-absolute"></span>
+                    <span class="span2 p-absolute"></span>
+                    <span class="span3 p-absolute"></span>
+                </label>
+                <div class="nav-text d-flex justify-center weight400">
+                    <ul class="d-flex justify-evenly">
+                        <li> <a href="#home" class="active">Home</a></li>
+                        <li> <a href="#about" class="not-active">About</a></li>
+                        <li> <a href="#whatido" class="not-active">What I Do</a></li>
+                        <li> <a href="#resume" class="not-active">Resume</a></li>
+                        <li> <a href="#portfolio" class="not-active">Portfolio</a></li>
+                        <li> <a href="#client" class="not-active">Client</a></li>
+                        <li id="border-none"> <a href="#contact" class="not-active">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home / Section 1 -->
+
+    <div id="home" class="section1 d-flex clrwhite justify-center align-center text-center">
+        <div class="home-container">
+            <div class="text1 d-flex flex-column">
+                <p class="fontchange weight500">Welcome</p>
+                <h2 class="weight600 p-relative">
+                    <div class="change_text">
+                        <ul class="d-flex flex-column">
+                            <div class="typewriting1 typewriter">
+                                <li>I'm Simone Olivia.</li>
+                            </div>
+                            <div class="typewriting2 typewriter">
+                                <li>I'm a Freelancer.</li>
+                            </div>
+                            <div class="typewriting3 typewriter">
+                                <li>I'm a Photographer.</li>
+                            </div>
+                            <div class="typewriting4 typewriter">
+                                <li>I'm a Designer.</li>
+                            </div>
+                        </ul>
+                    </div>
+                </h2>
+                <p class="fontchange1">based in Los Angeles, California.</p>
+                <div class="btn-hireme">
+                    <button class="btn1 btn1hvr weight500">Hire Me</button>
+                </div>
+            </div>
+            <!-- Sidebar -->
+            <div class="icon-container p-fixed text-center">
+                <i class="fas fa-cog icon"></i>
+                <div class="side-bar-container  p-fixed">
+                    <h2 class="colorswitcher">Color Switcher</h2>
+                    <hr>
+                    <div class="colors d-flex justify-between f-wrap">
+                        <div class="color1 divadjust"></div>
+                        <div class="color2 divadjust"></div>
+                        <div class="color3 divadjust"></div>
+                        <div class="color4 divadjust"></div>
+                        <div class="color5 divadjust"></div>
+                        <div class="color6 divadjust"></div>
+                        <div class="color7 divadjust"></div>
+                        <div class="color8 divadjust"></div>
+                        <div class="color9 divadjust"></div>
+                        <div class="color10 divadjust"></div>
+                    </div>
+                    <button>Reset Default Teal</button>
+                </div>
+            </div>
+            <a href="#about" class="clrwhite">
+                <span class="animated-down-btn p-absolute d-flex">
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </span>
+            </a>
+        </div>
+        <a href="#home" class="clrwhite"><span class="animated-btn-up p-fixed d-flex justify-center align-center">
+                <i class="fas fa-chevron-up"></i>
+            </span></a>
+    </div>
+    <!-- About Me / Section 2 -->
+    <div id="about" class="section2">
+        <div class="about-container">
+            <!-- Section heading -->
+            <div class="heading-container d-flex align-center justify-center">
+                <h2 class="h2props">About Me</h2>
+                <p class="p-absolute pprops">Know Me More</p>
+            </div>
+            <div class="body-container d-flex">
+                <div class="about-text">
+                    <h2>I'm <span>Simone Olivia,</span> a Web Developer</h2>
+                    <p>I help you build brand for your business at an affordable price. Thousands of clients have
+                        procured
+                        exceptional results while working with our dedicated team. when an unknown printer took a galley
+                        of
+                        type and scrambled it to make a type specimen book. </p>
+                    <p>Delivering work within time and budget which meets clientâ€™s requirements is our moto. Lorem
+                        Ipsum
+                        has been the industry's standard dummy text ever when an unknown printer took a galley. Lorem
+                        Ipsum
+                        has been the industry's standard dummy text ever when an unknown printer took a galley.</p>
+                </div>
+                <div class="ul-about d-flex">
+                    <ul>
+                        <li><span>Name:</span>Simone Olivia</li>
+                        <li><span>Email:</span><a href="mailto:chat@simone.com" class="mail">chat@simone.com</a></li>
+                        <li><span>Age:</span>28</li>
+                        <li id="bordernone"><span>From:</span>Los Angeles, California</li>
+                        <button class="btn1 btn2hvr">Download CV</button>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="numbers d-flex justify-evenly text-center">
+                <div class="numbersblock borderbtm borderright">
+                    <h4 class="num10">+</h4>
+                    <p>Years Experiance</p>
+                </div>
+                <div class="numbersblock borderbtm">
+                    <h4 class="num250">+</h4>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="numbersblock borderright">
+                    <h4 class="num650">+</h4>
+                    <p>Projects Done</p>
+                </div>
+                <div class="numbersblock bordernone">
+                    <h4 class="num38"><span></span></h4>
+                    <p>Get Awards</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- What I Do? / Section 3 -->
+    <div class="section3" id="whatido">
+        <div class="heading-container d-flex align-center justify-center">
+            <h2 class="h2props">Services</h2>
+            <p class="p-absolute pprops">What I Do?</p>
+        </div>
+        <div class="body-container1 d-flex f-wrap">
+            <div class="textblock1 d-flex">
+                <i class="fas fa-palette"></i>
+                <div class="text-container1">
+                    <h3>Graphic Design</h3>
+                    <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                    </p>
+                </div>
+            </div>
+            <div class="textblock1 d-flex">
+                <i class="fas fa-desktop"></i>
+                <div class="text-container1">
+                    <h3>Web Design</h3>
+                    <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                    </p>
+                </div>
+            </div>
+            <div class="textblock1 d-flex">
+                <i class="fas fa-pencil-ruler"></i>
+                <div class="text-container1">
+                    <h3>UI/UX Design</h3>
+                    <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                    </p>
+                </div>
+            </div>
+            <div class="textblock1 d-flex">
+                <i class="fas fa-paint-brush"></i>
+                <div class="text-container1">
+                    <h3>App Design & Develop</h3>
+                    <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                    </p>
+                </div>
+            </div>
+            <div class="textblock1 d-flex">
+                <i class="fas fa-chart-area"></i>
+                <div class="text-container1">
+                    <h3>Business Analysis</h3>
+                    <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                    </p>
+                </div>
+            </div>
+            <div class="textblock1 d-flex">
+                <i class="fas fa-bullhorn"></i>
+                <div class="text-container1">
+                    <h3>SEO Marketing</h3>
+                    <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume / Section 4 -->
+    <div class="section4" id="resume">
+        <div class="heading-container d-flex align-center justify-center">
+            <h2 class="h2props">Summary</h2>
+            <p class="p-absolute pprops">Resume</p>
+        </div>
+        <!-- Part 1 of section 4 -->
+        <div class="resume-container w-88 d-flex">
+            <div class="mainwrapper">
+                <h2 class="h2main">My Education</h2>
+                <div class="wrapperr">
+                    <p class="years">2000 - 2004</p>
+                    <h3 class="study">Computer Science</h3>
+                    <p class="para1">International University</p>
+                    <p class="para2">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                        possim
+                        iriure.</p>
+                </div>
+                <div class="wrapperr">
+                    <p class="years">2005 - 2008</p>
+                    <h3 class="study">Bachelor Degree</h3>
+                    <p class="para1">University of California</p>
+                    <p class="para2">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                        possim
+                        iriure.</p>
+                </div>
+                <div class="wrapperr">
+                    <p class="years">2009 - 2012</p>
+                    <h3 class="study">Master Degree</h3>
+                    <p class="para1">Harvard University</p>
+                    <p class="para2">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                        possim
+                        iriure.</p>
+                </div>
+            </div>
+            <div class="mainwrapper">
+                <h2 class="h2main">My Experience</h2>
+                <div class="wrapperr">
+                    <p class="years">2012 - 2013</p>
+                    <h3 class="study">Jr. UI UX Designer</h3>
+                    <p class="para1">Themeforest</p>
+                    <p class="para2">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                        possim
+                        iriure.</p>
+                </div>
+                <div class="wrapperr">
+                    <p class="years">2014 - 2016</p>
+                    <h3 class="study">Jr. Product Designer</h3>
+                    <p class="para1">Dribbble</p>
+                    <p class="para2">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                        possim
+                        iriure.</p>
+                </div>
+                <div class="wrapperr">
+                    <p class="years">2017 - 2019</p>
+                    <h3 class="study">Product Designer</h3>
+                    <p class="para1">Adobe</p>
+                    <p class="para2">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
+                        possim
+                        iriure.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Part 2 of section 4 -->
+        <div class="resume-container1 w-88 m-auto">
+            <h2 class="h2main margintb24 h2pad">My Skills</h2>
+            <div class="wrapperr2 d-flex">
+                <div class="block3">
+                    <div class="textt-wrapper">
+                        <p>Web Design<span>65%</span></p>
+                        <div class="clear-fix"></div>
+                        <div class="progress-bar progress-bar1"></div>
+                    </div>
+                    <div class="textt-wrapper">
+                        <p>HTML/CSS<span>95%</span></p>
+                        <div class="clear-fix"></div>
+                        <div class="progress-bar progress-bar2"></div>
+                    </div>
+                    <div class="textt-wrapper">
+                        <p>JavaScript<span>80%</span></p>
+                        <div class="clear-fix"></div>
+                        <div class="progress-bar progress-bar3"></div>
+                    </div>
+                </div>
+                <div class="block3">
+                    <div class="textt-wrapper">
+                        <p>React JS<span>70%</span></p>
+                        <div class="clear-fix"></div>
+                        <div class="progress-bar progress-bar4"></div>
+                    </div>
+                    <div class="textt-wrapper">
+                        <p>Angular JS<span>60%</span></p>
+                        <div class="clear-fix"></div>
+                        <div class="progress-bar progress-bar5"></div>
+                    </div>
+                    <div class="textt-wrapper">
+                        <p>Bootstrap<span>99%</span></p>
+                        <div class="clear-fix"></div>
+                        <div class="progress-bar progress-bar6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-button w-88 m-auto">
+                <button class="btn3">Download CV <span><i class="fas fa-download"></i></span></button>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio / Section 5 -->
+    <div class="section5" id="portfolio">
+        <div class="heading-container d-flex align-center justify-center">
+            <h2 class="h2props">Portfolio</h2>
+            <p class="p-absolute pprops">My Work</p>
+        </div>
+        <div class="portfolio-container m-auto">
+            <div class="buttonss d-flex justify-center">
+                <input type="radio" name="portfolio" id="all" class="p-absolute v-hidden" checked>
+                <label for="all" class="all-toggle portfolio-label">All</label>
+                <input type="radio" name="portfolio" id="design" class="p-absolute design-toggle v-hidden">
+                <label for="design" class="portfolio-label">Design</label>
+                <input type="radio" name="portfolio" id="brand" class="p-absolute v-hidden">
+                <label for="brand" class="brand-toggle portfolio-label">Brand</label>
+                <input type="radio" name="portfolio" id="photos" class="p-absolute v-hidden">
+                <label for="photos" class="photos-toggle portfolio-label">Photos</label>
+            </div>
+
+            <div class="portfolioimgs">
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-1.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-4.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-2.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-7.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-3.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-5.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-6.jpg" alt="">
+                </div>
+            </div>
+            <div class="portfolioimgs992">
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-1.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-3.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-4.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-7.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-2.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-5.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-6.jpg" alt="">
+                </div>
+            </div>
+            <div class="portfolioimgs575">
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-1.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-2.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-3.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-4.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-5.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-6.jpg" alt="">
+                </div>
+                <div class="portfolioimg hvrimg p-relative">
+                    <div class="hvrtext">
+                        <h3>Project Title</h3>
+                        <p>Category</p>
+                    </div>
+                    <img class="img" src="./images/projects/project-7.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Client / Section 6 -->
+    <div id="client" class="section6">
+        <div class="heading-container d-flex align-center justify-center">
+            <h2 class="h2props">Testimonial</h2>
+            <p class="p-absolute pprops">Client Speak</p>
+        </div>
+        <div class="testimonial-container p-relative m-auto">
+            <input type="radio" name="testimonial" id="testimonial-toggle" class="testimonial-toggle p-absolute">
+            <div class="testimonial-slide1 d-flex">
+                <div class="testimonial-slide11">
+                    <div class="head-container d-flex">
+                        <img src="./images/testimonial/client-sm-3.jpg" alt="">
+                        <p>
+                            <strong>Dennis Jacques</strong>
+                            <span>User from USA</span>
+                        </p>
+                    </div>
+                    <p class="pmargin24">â€œOnly trying it out since a few days. But up to now excellent. Seems to work
+                        flawlessly. priced
+                        simply dummy text of the printing and typesetting industry.â€</p>
+                    <div class="stars5">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide11 mrgnleft25 hidden">
+                    <div class="head-container d-flex">
+                        <img src="./images/testimonial/client-sm-1.jpg" alt="">
+                        <p>
+                            <strong>Jay Shah</strong>
+                            <span>Founder at Icomatic Pvt Ltd</span>
+                        </p>
+                    </div>
+                    <p class="pmargin24">"Easy to use, reasonably priced simply dummy text of the printing and
+                        typesetting industry.
+                        Quidam lisque persius interesset his et, in quot quidam possim iriure.â€</p>
+                    <div class="stars5">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <input type="radio" name="testimonial" id="testimonial-toggle1" class="testimonial-toggle p-absolute"
+                checked>
+            <div class="testimonial-slide2 d-flex justify-between">
+                <div class="testimonial-slide11">
+                    <div class="head-container d-flex">
+                        <img src="./images/testimonial/client-sm-2.jpg" alt="">
+                        <p>
+                            <strong>Patrick Cary</strong>
+                            <span>Freelancer from USA</span>
+                        </p>
+                    </div>
+                    <p class="pmargin24">â€œI am happy Working with printing and typesetting industry. Quidam lisque
+                        persius interesset
+                        his et, in quot quidam persequeris essent possim iriure.â€</p>
+                    <div class="stars5">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide11 mrgnleft25 hidden">
+                    <div class="head-container d-flex">
+                        <img src="./images/testimonial/client-sm-4.jpg" alt="">
+                        <p>
+                            <strong>Chris Tom</strong>
+                            <span>User from UK</span>
+                        </p>
+                    </div>
+                    <p class="pmargin24">â€œI have used them twice now. Good rates, very efficient service and priced
+                        simply dummy text of the printing and typesetting industry quidam interesset his et.
+                        Excellent.â€</p>
+                    <div class="stars5">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section7" id="contact">
+
+        <div class="heading-container d-flex align-center justify-center">
+            <h2 class="h2props">Contact</h2>
+            <p class="p-absolute pprops">Get in Touch</p>
+        </div>
+        <div class="contact-container d-flex m-auto">
+            <div class="contact-container-left d-flex flex-column">
+                <h2 class="text-uppercase">Address</h2>
+                <p class="d-flex flex-column mb-15"> <span>4th Floor, Plot No.22,</span>
+                    <span>145 Murphy Canyon Rd.</span>
+                    <span>San Diego CA 2028</span>
+                </p>
+                <p class="mb-1"><span class="iconsss"><i class="fas fa-phone"></i></span>(060) 444 434 444</p>
+                <p class="mb-1"><span class="iconsss"><i class="fas fa-fax"></i></span>(060) 555 545 555</p>
+                <p class="mb-15"><span class="iconsss"><i class="fas fa-envelope"></i></span>chat@simone.com</p>
+                <h2 class="text-uppercase">Follow Me</h2>
+                <ul class="social-icons d-flex align-center">
+                    <li class="social-iconss"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    <li class="social-iconss"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-iconss"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social-iconss"><a href="#"><i class="fab fa-google"></i></a></li>
+                    <li class="social-iconss"><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="contact-container-right">
+                <div class="">
+                    <h2 class="text-uppercase">Send us a note</h2>
+                    <form id="contact-form">
+                        <div class="wrapper3 3d-flex">
+                            <div class="name common"><input type="text" name="name" id="name" placeholder="Name"
+                                    required></div>
+                            <div class="email common"><input type="email" name="email" id="email" placeholder="Email"
+                                    required>
+                            </div>
+                            <div class="message common"><textarea name="message" id="message"
+                                    placeholder="Tell us more about your needs........" rows="6" required></textarea>
+                            </div>
+                        </div>
+                        <p class="text-center">
+                            <button id="submit-btn" class="btn btn-primary rounded-pill d-inline-flex"
+                                type="submit">Send
+                                Message</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="float-left">
+            <p>Copyright Â© 2021 <a class="active activehover" href="#">Simone</a> . All Rights Reserved.</p>
+        </div>
+        <div class="float-right">
+            <a href="#" class="border-rightt">Terms & Policy</a>
+            <a href="#">Disclaimer</a>
+        </div>
+        <div class="clear-fix"></div>
+    </footer>
+</body>
+
+</html>
